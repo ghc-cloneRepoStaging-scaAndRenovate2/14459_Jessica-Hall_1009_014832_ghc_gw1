@@ -4,7 +4,7 @@
     "license": "ISC",
     "main": "index.js",
     "dependencies": {
-      "express": "4.13.4",
+      "express": "4.19.2",
       "axios": "0.19.2",
       "moment": "2.29.1",
       "ms": "2.0.0"
