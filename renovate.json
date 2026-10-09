@@ -1,0 +1,14 @@
+{
+  "extends": ["config:base"],
+  "dependencyDashboardApproval": false,
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "dependencyDashboardApproval": false
+    },
+    {
+      "matchPackageNames": ["axios", "express", "debug", "follow-redirects"],
+      "labels": ["security"]
+    }
+  ]
+}
